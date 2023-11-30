@@ -1,0 +1,28 @@
+{
+  "name": "evs-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./server/app.js",
+    "lint": "eslint . "
+  },
+  "author": "Olga",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "live-server": "^1.2.2",
+    "open": "^9.1.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
